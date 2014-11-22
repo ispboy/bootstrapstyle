@@ -1,0 +1,205 @@
+/* 
+    Document   : fix
+    Created on : 2014-8-25, 3:42:57
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body.admin-menu {
+    margin-top: 24px !important;
+}
+
+#admin-menu {
+    position:fixed;
+}
+body.admin-menu .navbar-fixed-top {
+    top:24px;
+    z-index:998;
+}
+
+
+body {
+    line-height: 25px;
+}
+
+.navbar {
+    line-height: 20px;
+}
+
+tr.even, tr.odd {
+	background-color:inherit;
+}
+
+.form-item input,
+.form-item textarea {
+    width: auto;
+}
+
+#content {
+	position:relative;
+}
+
+#content .feed-icon {
+	position:absolute;
+	top:0.5em;
+	right:0.5em;
+}
+
+.pagination {
+	text-align:center;
+}
+
+.content {
+	position:relative;
+}
+
+/*	block	*/
+.block {
+	margin-bottom:2em;
+}
+
+.block .content {
+	padding:1em 0;
+}
+
+.block form {
+	margin:0 1em 0.5em;
+}
+
+.block-title {
+	margin:0;
+	padding:0.5em;
+	border-bottom:1px #ddd solid;
+}
+
+/*	node	*/
+.teaser {
+	border-bottom:1px #eee solid;
+	margin-bottom:2em;
+	padding-bottom:2em;
+}
+
+.teaser .content {
+    line-height: 25px;
+    color: #666;
+    height:50px;
+    margin-bottom: 10px;
+    overflow : hidden;
+}
+
+.node {
+	margin-bottom:2em;
+}
+
+.node .content {
+	margin-bottom:2em;
+}
+
+/*	comment	*/
+.comment ul.links {
+	margin:0;
+}
+
+.comment {
+	border-bottom:1px solid #eee;
+	padding-bottom:0.5em;
+}
+
+/*	views 	*/
+.views-view-grid {
+	width:100%;
+}
+
+/* typo	*/
+h1,h2,h3,h4,h5,h6 {
+	line-height:1.5em;
+  font-family: "Microsoft YaHei", "Helvetica Neue",​Helvetica,​Arial,​sans-serif;
+	font-weight:normal;
+}
+
+h1 {
+	font-size:26px;
+}
+
+h2 {
+	font-size:20px;
+}
+
+h3 {
+	font-size:18px;
+}
+
+h4 {
+	font-size:16px;
+}
+
+h5 {
+	font-size:14px;
+}
+
+h6 {
+	font-size:12px;
+}
+
+th {
+	white-space:nowrap;
+}
+
+/* 	user.css	*/
+#user-login-form {
+    text-align: left;
+}
+
+.profile .picture {
+	float:none;
+	margin:0;
+}
+.profile h3 {
+  border-bottom: none;
+	font-weight:bold;
+}
+.profile dl {
+  margin: 0 0 1.5em 0;
+	max-width:20em;
+}
+.profile dt {
+  margin: 0 0 0.8em 0;
+  font-weight: normal;
+	float:left;
+	width:20%;
+}
+.profile dd {
+  margin: 0 0 0.8em 0;
+	float:right;
+	width:80%;
+}
+/*	forum.css	*/
+#forum tr td.forum {
+	background-position:0.5em 1em;
+}
+
+.forum-topic-navigation {
+	margin-top:2em;
+	border-color: #ddd;
+}
+
+/* block_edit module	*/
+div.views-admin-links, div.block-edit-link, div.node-edit-link {
+	right:0;
+}
+/**	bootstrap	*/
+input[type="radio"], input[type="checkbox"] {
+	margin: 0;
+}
+
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+	margin-left:0;
+}
+
+/* lib	*/
+#wookmark li {
+	list-style:none;
+	margin:0;
+	padding:0;
+}

@@ -1,0 +1,47 @@
+/* CSS Document */
+
+.mb1 {
+	margin-bottom: 1em;
+}
+
+.mb2 {
+	margin-bottom: 2em;
+}
+
+.mb5 {
+	margin-bottom: 5px;
+}
+
+.ml1 {
+	margin-left: 1em;
+}
+
+.p1 {
+	padding:1em;
+}
+
+.p2 {
+	padding:2em;
+}
+
+.p5 {
+	padding:5px;
+}
+
+
+.tc {
+    text-align: center;
+}
+
+.rt {
+	position:relative;
+}
+
+/** 	typo	*/
+.large {
+	font-size:large;
+}
+
+.xlarge {
+	font-size:x-large;
+}

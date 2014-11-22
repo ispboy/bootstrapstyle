@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+#main-squeeze {
+	max-width:850px;
+}
