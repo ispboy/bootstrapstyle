@@ -59,6 +59,12 @@
     <?php if (!empty($breadcrumb)): ?><div id="breadcrumb"><?php print $breadcrumb; ?></div><?php endif; ?>
     <?php if (!empty($mission)): ?><div id="mission" class="alert alert-info"><?php print $mission; ?></div><?php endif; ?>
 
+		<?php if (!empty($hightlighted)): ?>
+      <div id="hightlighted-region" class="row-fluid hidden-phone">
+        <?php print $hightlighted; ?>
+      </div> <!-- /hightlighted-region -->
+    <?php endif; ?>
+  
     <div id="content">
       <?php if (!empty($title)): ?><h1 class="page-header" id="page-title"><?php print $title; ?></h1><?php endif; ?>
       <?php if (!empty($tabs)): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>

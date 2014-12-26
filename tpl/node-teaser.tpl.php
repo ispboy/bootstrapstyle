@@ -16,6 +16,12 @@
       <?php endif; ?>
     </div>
     <div class="content"><?php print $content ?></div>
+
+		<?php if ($zrssfeed): ?>
+      <div class="zrssfeed">
+        <?php print $zrssfeed; ?>
+      </div>
+    <?php endif; ?>
     
     <?php if ($terms): ?>
       <small class="terms muted pull-right"><i class="icon-tags"></i> <?php print $terms ?></small>

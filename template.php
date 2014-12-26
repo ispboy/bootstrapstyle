@@ -74,6 +74,28 @@ function bootstrapstyle_preprocess_node(&$vars) {
 			$vars['wookmark'] = theme('item_list', $items, NULL, 'ul', $attributes);
 		}
 	}
+	
+	//zrssfeed
+	if (isset($node->field_zrssfeed)) {
+		$zrssfeed = '';
+		$items = array();
+		drupal_add_js(drupal_get_path('theme', 'bootstrapstyle'). '/lib/jquery.zrssfeed.js');
+		foreach($node->field_zrssfeed as $key => $val) {
+			$id = 'zrssfeed'. $node->nid. '-'. $key;
+			$zrssfeed .= '<div id="'. $id. '"></div>';
+			$items[$id] = $val['value'];
+		}
+		$vars['zrssfeed'] .= $zrssfeed;
+		
+		$settings = array('zrssfeed' => array(
+			'node'. $node->nid => array(
+				'items' => $items,
+				'teaser' => $vars['teaser'],
+			),
+		));
+		drupal_add_js($settings, 'setting');
+	}
+	
 }
 
 /**

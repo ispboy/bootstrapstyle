@@ -16,3 +16,5 @@ _rounded: rounded image
 
 3、if field_show_images == TRUE
 wookmark display field_image in node page.
+
+4、Rss parse field: field_zrssfeed

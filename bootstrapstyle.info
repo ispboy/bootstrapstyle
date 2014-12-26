@@ -9,6 +9,7 @@ engine = phptemplate
 ;--------------------- regions -----------------------------
 regions[left] = Left sidebar
 regions[right] = Right sidebar
+regions[hightlighted] = Hightlighted
 regions[content] = Content
 regions[header] = Header
 regions[hero] = Hero unit
