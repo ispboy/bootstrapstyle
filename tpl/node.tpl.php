@@ -35,11 +35,11 @@
   <span class="xlarge"><?php print $links; ?></span>
   <?php
     // If enabled, show new comment form if it's not already being displayed.
-    $reply = arg(0) == 'comment' && arg(1) == 'reply';
+/*    $reply = arg(0) == 'comment' && arg(1) == 'reply';
     if (user_access('post comments') && node_comment_mode($node->nid) == COMMENT_NODE_READ_WRITE && (variable_get('comment_form_location_' . $node->type, COMMENT_FORM_SEPARATE_PAGE) == COMMENT_FORM_SEPARATE_PAGE) && !$reply) {
       $output = comment_form_box(array('nid' => $node->nid), t('Post new comment'));
       echo $output;
-    }
+    }*/
   ?>
   
 </div>

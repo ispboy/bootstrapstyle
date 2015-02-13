@@ -15,7 +15,7 @@ ul.menu li {
 }
 
 ul.menu li:before {
-	content:"\f105";
+	content:"";
 	display: inline-block;
 	font-family: "FontAwesome";
 	font-style: normal;
@@ -31,11 +31,11 @@ ul.menu li.active-trail:before {
 }
 
 ul.menu li.expanded:before {
-	content: "\f103";
+	content: "\f0d7";
 }
 
 ul.menu li.collapsed:before {
-	content: "\f101";
+	content: "\f0da";
 }
 
 ul.menu li.active-trail>a {
