@@ -82,7 +82,7 @@ tr.even, tr.odd {
 
 .teaser .content {
     line-height: 25px;
-    color: #666;
+    color: #555;
     max-height:50px;
     margin-bottom: 10px;
     overflow : hidden;
