@@ -207,3 +207,12 @@ input[type="radio"], input[type="checkbox"] {
 	margin:0;
 	padding:0;
 }
+
+/*	hero unit	*/
+.hero-unit .block {
+	margin-bottom:0;
+}
+
+.hero-unit .block .content {
+	padding: 0;
+}

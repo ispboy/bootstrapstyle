@@ -66,8 +66,8 @@
     <?php endif; ?>
   
     <div id="content">
-      <?php if (!empty($title)): ?><h1 class="page-header" id="page-title"><?php print $title; ?></h1><?php endif; ?>
       <?php if (!empty($tabs)): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>
+      <?php if (!empty($title)): ?><h1 class="page-header" id="page-title"><?php print $title; ?></h1><?php endif; ?>
       <?php if (!empty($messages)): print $messages; endif; ?>
       <?php if (!empty($help)): print $help; endif; ?>
       <div id="content-content" class="clear-block">

@@ -9,7 +9,7 @@
 */
 function bootstrapstyle_breadcrumb($breadcrumb) {
   $i = count($breadcrumb);
-  if ($i > 1) {
+  if ($i > 2) {
     return '<div class="breadcrumb">'. implode(' » ', $breadcrumb) .'</div>';
   }
 }
