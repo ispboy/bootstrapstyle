@@ -88,6 +88,10 @@ tr.even, tr.odd {
     overflow : hidden;
 }
 
+.teaser .content p {
+	margin-bottom:0;
+}
+
 .node {
 	margin-bottom:2em;
 }
